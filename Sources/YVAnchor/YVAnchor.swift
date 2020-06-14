@@ -19,6 +19,11 @@ extension YVAnchor where Self: UIView {
     public var width   : NSLayoutDimension   { get { return widthAnchor } }
     public var height  : NSLayoutDimension   { get { return heightAnchor } }
 
+    public var safeTop     : NSLayoutYAxisAnchor { get { return safeAreaLayoutGuide.topAnchor } }
+    public var safeBottom  : NSLayoutYAxisAnchor { get { return safeAreaLayoutGuide.bottomAnchor } }
+    public var safeLeading : NSLayoutXAxisAnchor { get { return safeAreaLayoutGuide.leadingAnchor } }
+    public var safeTrailing: NSLayoutXAxisAnchor { get { return safeAreaLayoutGuide.trailingAnchor } }
+
     @discardableResult
     public func pin<T>(_ side: NSLayoutConstraint.Attribute, to: NSLayoutAnchor<T>, constant: CGFloat = 0) -> NSLayoutConstraint {
         translatesAutoresizingMaskIntoConstraints = false
