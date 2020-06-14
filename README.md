@@ -24,7 +24,7 @@ subview.pin(.left, to: view.left, constant: 30)
 
 ## Animation
 
-![](https://github.com/Shadberrow/YVAnchor/blob/master/Resources/demo002.png)
+![](https://github.com/Shadberrow/YVAnchor/blob/master/Resources/demo002.gif)
 
 # Note
 
