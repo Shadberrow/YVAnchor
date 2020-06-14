@@ -18,9 +18,13 @@ subview.pin(.left, to: view.left, constant: 30)
 
 # Example
 
-Sample layout constraints
+## Sample layout constraints
 
-![](https://github.com/Shadberrow/YVAnchor/blob/master/Resources/demo01.png)
+![](https://github.com/Shadberrow/YVAnchor/blob/master/Resources/demo001.png)
+
+## Animation
+
+![](https://github.com/Shadberrow/YVAnchor/blob/master/Resources/demo002.png)
 
 # Note
 
